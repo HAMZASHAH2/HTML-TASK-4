@@ -1,0 +1,77 @@
+body{
+    background-image: url(h.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-image: fixed;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+.login-container{
+   width: 100%;
+   max-width: 400px;
+   margin: 50px auto;
+   background-color:rgba(255, 255, 255, 0.6) ;
+   padding:20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-form h2{
+    color: #333;
+}
+.login-form{
+    color: #666;
+}
+.Email{
+    margin-bottom:20px;
+}
+.Email label{
+    display: block;
+    color: #333;
+}
+.Email input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius:4px ;
+}
+.password{
+    margin-bottom: 20px;
+}
+.password label{
+    display: block;
+    color: #333;
+}
+.password input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius:4px ;
+}
+.forgot-password{
+    text-align: right;
+    color: #0066cc;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.alternative-login,
+.signup{
+    text-align: center;
+    margin-top: 20px;
+}
+.alternative-login button{
+    background-color: #000;
+    margin-top: 10px;
+}
